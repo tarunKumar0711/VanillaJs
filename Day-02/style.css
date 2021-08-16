@@ -44,10 +44,11 @@ body
     background-color: black;
     height:2.5px;
     top:50%;
+    left:50%;
     border-radius: 0% 50% 50% 0%;
     position: absolute;
-    transform-origin: 100%;
-    transform: rotate(90deg);
+    transform-origin: left;
+    transform: rotate(-90deg);
     transition: all 0.05s;
     transition-timing-function: cubic-bezier(0.1, 2.7, 0.58, 1);
 }
@@ -65,15 +66,15 @@ body
 }
 .sec
 {
-    width: 12rem;
+    width: 20.5rem;
 }
 .min
 {
-    width: 9rem;
+    width: 17rem;
     
 }
 .hour
 {
-    width: 8rem;
+    width: 13rem;
     
 }
